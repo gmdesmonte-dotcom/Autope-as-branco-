@@ -41,6 +41,10 @@ header h1{
 font-size:28px;
 }
 
+header p{
+margin-top:5px;
+}
+
 .conteudo{
 background:#fff;
 margin:40px auto;
@@ -52,6 +56,7 @@ box-shadow:0 8px 25px rgba(0,0,0,.08);
 h2{
 color:#d40000;
 margin:25px 0 10px;
+font-size:26px;
 }
 
 p{
@@ -61,15 +66,23 @@ margin-bottom:15px;
 
 .dados{
 background:#f7f7f7;
-padding:20px;
+padding:22px;
 border-radius:15px;
 margin-top:25px;
+border-left:5px solid #d40000;
+}
+
+.dados p{
+margin:0;
+line-height:1.9;
+word-break:break-word;
+overflow-wrap:anywhere;
 }
 
 .voltar{
 display:block;
 width:max-content;
-margin:30px auto 0;
+margin:35px auto 0;
 background:#d40000;
 color:#fff;
 padding:14px 30px;
@@ -81,6 +94,7 @@ transition:.3s;
 
 .voltar:hover{
 background:#b80000;
+transform:translateY(-2px);
 }
 
 footer{
@@ -90,6 +104,22 @@ text-align:center;
 padding:20px;
 font-size:14px;
 margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:24px;
+}
+
+.conteudo{
+padding:25px;
+}
+
+h2{
+font-size:22px;
+}
+
 }
 
 </style>
@@ -113,27 +143,27 @@ margin-top:40px;
 <h2>Quem Somos</h2>
 
 <p>
-A Branco Auto Peças MG atua no segmento de peças automotivas em Belo Horizonte, oferecendo soluções para manutenção de veículos nacionais e importados.
+A Branco Auto Peças MG atua no segmento de peças automotivas em Belo Horizonte, oferecendo soluções para manutenção de veículos nacionais e importados com foco em qualidade, confiança e excelência no atendimento.
 </p>
 
 <p>
-Nosso compromisso é proporcionar aos clientes um atendimento de qualidade, ajudando na busca pela peça correta com segurança, agilidade e confiança.
+Buscamos oferecer um atendimento personalizado, auxiliando nossos clientes na identificação da peça correta para cada veículo, sempre com transparência, agilidade e compromisso.
 </p>
 
 <h2>Nossa Atuação</h2>
 
 <p>
-Trabalhamos com uma ampla variedade de peças automotivas para diferentes marcas e modelos, atendendo tanto clientes particulares quanto profissionais da área automotiva.
+Trabalhamos com uma ampla variedade de peças automotivas para diferentes marcas e modelos, atendendo clientes particulares, oficinas mecânicas, frotistas e empresas que buscam produtos de qualidade e atendimento especializado.
 </p>
 
 <p>
-Nossa equipe está preparada para auxiliar na identificação dos componentes adequados para cada veículo, buscando sempre oferecer um atendimento transparente e eficiente.
+Nosso objetivo é oferecer soluções que contribuam para a manutenção segura e eficiente dos veículos, prezando sempre pela satisfação dos nossos clientes.
 </p>
 
 <h2>Missão</h2>
 
 <p>
-Oferecer peças automotivas de qualidade e um atendimento confiável, contribuindo para que nossos clientes mantenham seus veículos em boas condições de funcionamento.
+Oferecer peças automotivas de qualidade e um atendimento confiável, contribuindo para que nossos clientes mantenham seus veículos em excelentes condições de funcionamento.
 </p>
 
 <h2>Dados da Empresa</h2>
@@ -148,7 +178,10 @@ Rua dos Tamoios, 980<br>
 Belo Horizonte - MG<br>
 CEP: 30120-050<br>
 Telefone: (31) 3272-6333<br>
-E-mail: contato@brancoautopecasmg.online
+E-mail:
+<span style="word-break:break-word;overflow-wrap:anywhere;">
+contato@brancoautopecasmg.online
+</span>
 </p>
 
 </div>
